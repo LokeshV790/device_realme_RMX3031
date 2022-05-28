@@ -26,6 +26,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # extra flags
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
