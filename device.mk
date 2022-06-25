@@ -111,7 +111,8 @@ PRODUCT_PACKAGES += \
     SystemUIOverlay \
     SettingsOverlay \
     TelephonyOverlay \
-    CarrierConfigOverlay
+    CarrierConfigOverlay \
+    SettingsProviderOverlayRMX3031
 
 # Enforce RRO targets
 PRODUCT_ENFORCE_RRO_TARGETS := *
