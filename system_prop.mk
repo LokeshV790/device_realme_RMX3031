@@ -30,7 +30,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
-    persist.dbg.wfc_avail_ovr=1
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.vendor.vilte_support=0 \
+    persist.vendor.mtk.vilte.enable=0
 
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
